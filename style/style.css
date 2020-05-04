@@ -1,0 +1,367 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Header */
+
+.header {
+  background-color: #87509c;
+  width: 100%;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+header .logo {
+  width: 117px;
+  height: 37px;
+  cursor: pointer;
+}
+
+header .nav {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+}
+
+header .header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .nav-link {
+  display: inline-block;
+  padding: 5px 20px;
+  background-color: #87509c;
+  border-radius: 3px;
+  margin-left: 20px;
+  vertical-align: top;
+
+  text-transform: uppercase;
+  color: #eeebf0;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+header .nav-link:hover {
+  background-color: #643a79;
+}
+
+header .intro {
+  max-width: 907px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+header .intro-inner {
+  display: block;
+  text-align: center;
+}
+
+header .intro-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #f7f3ea;
+  line-height: 1.3;
+  white-space: pre-line;
+}
+
+header .intro-btn {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+
+  display: inline-block;
+  margin-top: 70px;
+  margin-bottom: 150px;
+  padding: 20px 90px;
+  background-color: #eb7d4b;
+  border-radius: 5px;
+}
+
+header .intro-btn:hover {
+  background-color: #c86a40;
+}
+
+/* First section SERVICES */
+
+.services {
+  display: flex;
+  padding: 100px 0;
+  background-color: #17c2a4;
+}
+
+.services-header {
+  width: 100%;
+  max-width: 603px;
+  margin: 0 auto 40px;
+
+  text-align: center;
+}
+
+.services-title {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.services-title:after {
+  content: "";
+  display: block;
+  width: 87px;
+  height: 4px;
+  margin: 20px auto 0;
+  background-color: #14a58c;
+}
+
+.services-text {
+  font-size: 18px;
+  color: #eaf7f4;
+  font-weight: 400;
+  white-space: pre-line;
+}
+
+/* About */
+.about {
+  display: flex;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.about-img {
+  margin-left: 60px;
+  max-width: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+.about-img:first-child {
+  margin-left: 20px;
+}
+
+.about-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  margin-top: 40px;
+}
+
+.about-text {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+}
+
+/* Second section TEAM */
+.team {
+  display: flex;
+  padding: 100px 0;
+  background-color: #e7f1f8;
+}
+
+.team-header {
+  max-width: 645px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.team-title {
+  color: #3c4761;
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.team-title:after {
+  content: "";
+  display: block;
+  width: 87px;
+  height: 4px;
+  background-color: #c8d9e5;
+  margin: 25px auto;
+}
+
+.team-text {
+  color: #3c4761;
+  font-size: 18.5px;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+/* TEAMMATES */
+
+.teammates {
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.teammates-img {
+  max-width: 200px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.teammates-title {
+  font-size: 24px;
+  color: #27283d;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 45px;
+}
+
+.teammates-description {
+  font-size: 16px;
+  color: #30bae7;
+  font-weight: 400;
+  align-items: center;
+}
+
+.teammates-text {
+  font-size: 16px;
+  font-weight: 300;
+  color: #5d677b;
+}
+
+.teammates-icons {
+  display: block;
+  align-items: center;
+}
+
+.teammates-icons1 {
+  margin-right: 10px;
+}
+
+/* Third section SKILLS */
+.skill {
+  display: flex;
+  padding: 100px 0;
+  background-color: #fff;
+}
+
+.skill-header {
+  text-align: center;
+}
+
+/* SKILLS PROGRESS */
+.progress {
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.progress-title {
+  font-size: 24px;
+  color: #3c4761;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.progress-img {
+  max-width: 260px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* FOOTER */
+.footer {
+  padding: 55px 0;
+  margin: 0 auto;
+  background-color: #344b8e;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links {
+  padding-left: 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.footer-links:hover {
+  color: #30bae7;
+}
+
+
+
+
+@media only screen and (max-width: 414px) {
+  header .header-inner {
+    display: flex;
+    max-width: 200px;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  header .logo {
+    display: flex;
+    margin: 0 auto;
+    max-width: 150px;
+    width: 100%;
+  }
+
+  header .nav {
+    display: block;
+    padding: 10px;
+  }
+
+  header .nav-link {
+    display: flex;
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 25px;
+  }
+
+  header .intro-title {
+    display: block;
+    margin-left: 10px;
+    max-width: 350px;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1;
+    white-space: normal;
+  }
+
+  header .intro-btn {
+    font-size: 22px;
+  }
+}
